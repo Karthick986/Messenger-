@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "237839313985",
+    "firebase_url": "https://sanitizer-test.firebaseio.com",
+    "project_id": "sanitizer-test",
+    "storage_bucket": "sanitizer-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237839313985:android:24d98ad13d792b15f7aac0",
+        "android_client_info": {
+          "package_name": "com.example.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237839313985-di6hd2vhf9h829qv5e4l96tfl4kqf9ao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAujYU6Db0WUrq9T9rlNttM_Ksw_OpkjBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237839313985-di6hd2vhf9h829qv5e4l96tfl4kqf9ao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

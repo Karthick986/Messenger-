@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textnote"
+        android:text="Its under notification or chat option menu of customers"
+        android:textSize="20sp"
+        android:layout_margin="10sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopa"
+        android:padding="30dp"
+        android:text="Customer 1"
+        android:layout_below="@id/textnote"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopb"
+        android:layout_below="@id/shopa"
+        android:padding="30dp"
+        android:text="Customer 2"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/shopc"
+        android:layout_below="@id/shopb"
+        android:padding="30dp"
+        android:text="Customer 3"
+        android:background="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/logout"-->
+<!--        android:text="Logout"-->
+<!--        android:layout_below="@id/shopc"-->
+<!--        android:layout_margin="20sp"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:textColor="@android:color/white"-->
+<!--        android:textSize="25sp"/>-->
+</RelativeLayout>

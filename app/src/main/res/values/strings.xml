@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shopitizer</string>
+
+    <string-array name="category">
+        <item> Grocery </item>
+        <item> Bakery </item>
+        <item> Vegetables/Friut </item>
+        <item> Medical </item>
+        <item> Others </item>
+    </string-array>
+</resources>
